@@ -5,11 +5,9 @@ using TMPro;
 
 public class UI : MonoBehaviour
 {
-
     private GameObject TMP_minesLeft;
     private int minesLeft;
     
-
     void Start(){
         TMP_minesLeft = GameObject.Find("TX_minesLeft");
     }
